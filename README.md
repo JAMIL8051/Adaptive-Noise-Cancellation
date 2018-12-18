@@ -1,3 +1,18 @@
-# Adaptive-Noise-Cancellation
+# Adaptive-Noise-Cancellation: We aim at cancelling the additive noise
+in a noisy audio signal, namely noise reduction,
+by means of adaptive filtering techniques. Here
+we combined the audio samples of a speech that is
+original signal with the real noise to generate
+noisy signal. We recorded different speech signals
+and added noisy signal with different amounts of
+signal-to-noise (SNR) ranging from -10dB to
++10dB directly in MATLAB. Finally, we used
+LMS based noise cancelling techniques on the
+input noisy signal to obtain the de-noised
+enhanced signal as the output. The noise signal
+generated directly from MATLAB was used as
+the reference signal to calculate the LMS filter
+weights. The de-noised signal had the same length
+as the desired signals.
 
-This is a method for detection of faces quickly and accurately in an unconstrained condition. The normalized pixel difference (NPD) has been used as a new feature in images for detection. This NDP is calculated as the difference to sum ratio of two adjacent pixel values. It’s inspired by the Weber Fraction in experimental psychology. Then a deep quadratic tree is used to learn the optimal subset of the feature and combinations of the subsets from the training images. This is done to simplify the complex manifold of faces to a set of learned rules. As a result, a single soft-cascade classifier was used to handle the unconstrained face detection. Furthermore, the NPD features were efficiently obtained from a look up table, and the detection template could be easily scaled, making run-time of the proposed face detector very fast and realistic.
+
